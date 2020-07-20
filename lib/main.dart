@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage>
     );
   }
 }
-
+//inside class every method that is part of secondary isolate need to declare static or declare the method outside the class to avoid errors.
 //inside class fib need to become static because of compute  outside class fib is simple method.
 int fib(int n) {
   int n1 = n - 1;
